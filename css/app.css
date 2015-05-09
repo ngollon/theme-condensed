@@ -16,7 +16,7 @@ body {
     padding-bottom: 20px;
 }
 
-q,blockquote {
+q, blockquote {
     font-family: 'Muli', sans-serif;
 }
 
@@ -87,12 +87,11 @@ header li {
 
 nav .active a {
     border: 1px solid #9b6d51;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
+    border-radius: 4px;
     background-color: #e7a279;
-    margin-left: 6px;
-    margin-right: 6px;
     font-weight: normal;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 section.page {
@@ -103,6 +102,8 @@ section.page {
     border-radius: 0px 0px 8px 8px;
     padding-bottom: 5px;
     padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .page-header {
@@ -131,14 +132,16 @@ section.page {
 
 .items article {
     border: none;
-    border-bottom: 1px dotted  #CCC;
+    border-bottom: 1px dotted #CCC;
     background-color: inherit;
     margin-bottom: 0;
     padding-bottom: 10px;
 }
 
 .items #current-item {
-    border: #9b6d51;
+    border: none;
+    border-bottom: 1px dotted #CCC;
+    background-color: #fafafa;
 }
 
 .items article:last-child {
