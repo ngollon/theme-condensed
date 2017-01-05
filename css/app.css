@@ -1,10 +1,10 @@
 @import url('../../../assets/css/app.css');
+@import url("https://fonts.googleapis.com/css?family=Open Sans:300,400,600,700");
 
 @font-face {
-    font-family: 'Muli';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
-    src: local('Muli'), url(../fonts/Muli.woff) format('woff');
 }
 
 body {
@@ -158,8 +158,8 @@ section.page {
     font-size: 100%;
 }
 
-.items .preview {
-    font-family: 'Muli', sans-serif;
+.preview {
+    display: none;
 }
 
 form {
